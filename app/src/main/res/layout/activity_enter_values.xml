@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darren.assignment4.EnterValuesActivity"
+    android:id="@+id/base_layout"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/input_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/word"/>
+    <EditText
+        android:id="@+id/input_synonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/synonym"
+        android:layout_below="@+id/input_word"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/add_synonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_synonym"
+        android:layout_below="@+id/input_synonym"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment 4</string>
+    <string name="welcome">Welcome!</string>
+    <string name="start">Start</string>
+    <string name="word">Word</string>
+    <string name="synonym">Synonym</string>
+    <string name="find_synonym">Find Synonym</string>
+    <string name="enter_values">Enter Values</string>
+
+    <string name="error">An Error Occurred.</string>
+    <string name="display_word">Word: %1$s</string>
+    <string name="display_synonym">Synonym: %1$s</string>
+    <string name="no_synonym">Could not find a synonym</string>
+
+    <string name="add_synonym">Add Synonym</string>
+    <string name="synonym_added">Synonym successfully added!</string>
+</resources>
